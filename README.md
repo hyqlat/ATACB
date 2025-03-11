@@ -14,8 +14,6 @@ Action-driven stochastic human motion prediction aims to generate future motion 
 
 ## Implementation
 
----
-
 ### 1.Installation
 
 ##### Environment
