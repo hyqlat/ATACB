@@ -63,4 +63,6 @@ And use the **visualization** lines in script `run_{NAME_OF_DATASET}.sh` for vis
 
 ## Acknowledgements
 
+We sincerely thank the authors of [WAT](https://github.com/wei-mao-2019/WAT) for providing the source code and the pre-processed data from their publication. These resources have been invaluable to our work, and we are immensely grateful for their support.
+
 ## Citation
