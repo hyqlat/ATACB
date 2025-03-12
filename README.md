@@ -1,8 +1,18 @@
 # Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic
 
-Code for ``Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic'' (CVPR2025)
+This is official implementation for CVPR2025 paper **Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic.**
+
+> ***Jianwei Tang, Hong Yang, Tengyue Chen, Jian-Fang Hu***
+>
+> **Sun Yat-sen University**
 
 **[[paper]]()   [[homepage]](https://hyqlat.github.io/STABACB.github.io/)**
+
+## TODO
+
+* [ ] Pre-trained Models...
+* [X] [2025/03/12] Code is available now!
+* [X] [2025/02/27] Our paper is accepted by CVPR2025!
 
 ## Abstract
 
@@ -19,11 +29,11 @@ Action-driven stochastic human motion prediction aims to generate future motion 
 ##### Environment
 
 * Python == 3.9.19
-* PyTorch==1.12.1
+* PyTorch == 1.12.1
 
 ##### Dependencies
 
-Install the dependencies from the :`requirements.txt`
+Install the dependencies from the: `requirements.txt`
 
 ```bash
 pip install -r requirements.txt
@@ -41,25 +51,35 @@ Download all the files to `./results` folder.
 
 ### 2.Training
 
-Use the scripts `run_{NAME_OF_DATASET}.sh` to train corresponding dataset. The YAML configs can be found in `./motion_pred/cfg/`.
+To train **a dataset** (e.g., `{NAME_OF_DATASET}`), execute the script `run_{NAME_OF_DATASET}.sh`. 
+
+The corresponding YAML configuration files are located in `./motion_pred/cfg/`.
 
 ##### Training ARM
 
-Use the **train conti class** lines in script `run_{NAME_OF_DATASET}.sh` to train Action Recognition Module. The YAML config can be found in `./motion_pred/cfg/{NAME_OF_DATASET}_cc.yml`.
+Use the **`train conti class`** commands in script `run_{NAME_OF_DATASET}.sh` to train the **Action Recognition Module**. 
+
+The YAML configuration file can be found in `./motion_pred/cfg/{NAME_OF_DATASET}_cc.yml`.
 
 ##### Training MPM
 
-Use the **train** lines in script `run_{NAME_OF_DATASET}.sh` to train Motion Prediction Module. The YAML config can be found in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.yml`.
+Use the **`train`** commands in script `run_{NAME_OF_DATASET}.sh` to train the **Motion Prediction Module**. 
+
+The YAML configuration is located in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.yml`.
 
 ### 3.Testing
 
-Use the **test** lines in script `run_{NAME_OF_DATASET}.sh` for testing. The YAML config can be found in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.yml`.
+Use the **`test`** commands in script `run_{NAME_OF_DATASET}.sh` to **perform testing**. 
+
+The YAML configuration is located in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.yml`.
 
 ### 4.Visualization
 
 Download smpl-(h,x) models from their official websites and put them in `./SMPL_models` folder.
 
-And use the **visualization** lines in script `run_{NAME_OF_DATASET}.sh` for visualization. The YAML config can be found in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.yml`.
+And use the **`visualization`** commands in script `run_{NAME_OF_DATASET}.sh` to **generate visualizations**. 
+
+The YAML configuration is located in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.yml`.
 
 ## Acknowledgements
 
