@@ -75,7 +75,26 @@ The YAML configuration is located in `./motion_pred/cfg/{NAME_OF_DATASET}_rnn.ym
 
 ### 4.Visualization
 
-Download smpl-(h,x) models from their official websites and put them in `./SMPL_models` folder.
+Download smpl-(h,x) models from their official websites and put them in `./SMPL_models` folder.  The data structure should looks like this
+
+```
+SMPL_models
+    ├── smpl
+    │   ├── SMPL_FEMALE.pkl
+    │   └── SMPL_MALE.pkl
+    │
+    ├── smplh
+    │    ├── MANO_LEFT.pkl
+    │    ├── MANO_RIGHT.pkl
+    │    ├── SMPLH_FEMALE.pkl
+    │    └── SMPLH_MALE.pkl
+    │
+    └── smplx
+        │
+        ├── SMPLX_FEMALE.pkl
+        └── SMPLX_MALE.pkl
+```
+
 
 And use the **`visualization`** commands in script `run_{NAME_OF_DATASET}.sh` to **generate visualizations**.
 
