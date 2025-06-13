@@ -6,7 +6,7 @@ This is official implementation for CVPR2025 paper **Stochastic Human Motion Pre
 >
 > **Sun Yat-sen University**
 
-**[[paper]]()   [[homepage]](https://hyqlat.github.io/STABACB.github.io/)**
+**[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Tang_Stochastic_Human_Motion_Prediction_with_Memory_of_Action_Transition_and_CVPR_2025_paper.pdf)   [[homepage]](https://hyqlat.github.io/STABACB.github.io/)**
 
 ## TODO
 
@@ -45,7 +45,7 @@ The pre-processed datasets can be found in the [project page of WAT](https://git
 
 ##### Pre-trained Models
 
-The pre-trained models can be found in [LINK](https://drive.google.com/drive/folders/12zAFeqToH9SZ8nFjrw3VmixpL-JpoTXr?usp=sharing). Download all the files to `./results` folder.
+The pre-trained models can be found in [Google-Drive](https://drive.google.com/drive/folders/12zAFeqToH9SZ8nFjrw3VmixpL-JpoTXr?usp=sharing). Download all the files to `./results` folder.
 
 ### 2.Training
 
