@@ -10,7 +10,7 @@ This is official implementation for CVPR2025 paper **Stochastic Human Motion Pre
 
 ## TODO
 
-* [ ] Pre-trained Models...
+* [X] [2025/06/13] Pre-trained models have been made public!
 * [X] [2025/03/22] Code is available now!
 * [X] [2025/02/27] Our paper is accepted by CVPR2025!
 
@@ -45,9 +45,7 @@ The pre-processed datasets can be found in the [project page of WAT](https://git
 
 ##### Pre-trained Models
 
-***coming soon...***
-
-Download all the files to `./results` folder.
+The pre-trained models can be found in [LINK](https://drive.google.com/drive/folders/12zAFeqToH9SZ8nFjrw3VmixpL-JpoTXr?usp=sharing). Download all the files to `./results` folder.
 
 ### 2.Training
 
