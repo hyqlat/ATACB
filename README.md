@@ -113,5 +113,12 @@ We sincerely thank the authors of [WAT](https://github.com/wei-mao-2019/WAT) for
 If you find this project useful in your research, please consider citing:
 
 ```
-...
+@InProceedings{Tang_2025_CVPR,
+    author    = {Tang, Jianwei and Yang, Hong and Chen, Tengyue and Hu, Jian-Fang},
+    title     = {Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {1883-1893}
+}
 ```
